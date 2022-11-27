@@ -1,5 +1,6 @@
 .navbar{
     width: 90%;
+    max-width: 1440px;
     /* position: absolute;
     left: 5%; */
     /* top: 30px; */
