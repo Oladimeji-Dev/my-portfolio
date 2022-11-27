@@ -18,14 +18,23 @@ section{
     position: relative;
 }
 
-
-  
-/* .one{
-background-color: aqua;
-} */
 .two{
-background-color: pink;
+    background-color: #6f85e615;
+    color: #4831d4;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .three{
 background-color: blueviolet;
 }
@@ -35,10 +44,3 @@ background-color: grey;
 .five{
 background-color: goldenrod;
 }
-
-/* @media (max-width:650px) {
-    .container{
-        scroll-snap-type: none;
-    }
-    
-} */

@@ -1,6 +1,5 @@
 .one{
     background-color: #5034d4;
-
     min-height: 100vh;
 }
 h1{
@@ -120,6 +119,9 @@ h1{
 }
 
 @media (max-width:425px) {
+    .one{
+        height: fit-content;
+    }
     .intro-1{
         font-size: 2.5rem;
     }
