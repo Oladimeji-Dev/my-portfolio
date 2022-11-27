@@ -36,4 +36,8 @@ export const skills = [
         name : "TYPESCRIPT",
         image : "icons/typescript.svg"
     },
+    {
+        name : "NODE.JS",
+        image : "icons/nodejs-icon.svg"
+    },
 ]
