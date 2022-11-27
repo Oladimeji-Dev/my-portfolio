@@ -4,6 +4,8 @@ import { HomeSection } from '../../component/HomeSection/HomeSection'
 import { Navbar } from '../../component/SecNavbar/Navbar'
 import logop from '../../assets/images/cube_002.png'
 import profile from '../../assets/images/Profile.jpeg'
+import { skills } from '../../skills'
+// import { Link } from 'react-router-dom'
 
 export const HomePage = () => {
   return (
@@ -37,7 +39,33 @@ export const HomePage = () => {
             </div>
         </section>
         <section className="three">
-            <h1>Third Page</h1>
+            <Navbar fill='#5034d4'logo={logop} />
+            <div className="knowledge">
+                <div className="knowledge-projects">
+                    <h1>
+                        I build & Program stuff
+                    </h1>
+                    <p>
+                        Open source projects, <br/>web apps and experimentals.
+                    </p>
+                    <a href='#1' className='btn btn-works'>SEE MY WORKS ----</a>
+                </div>
+                <div className="knowledge-skills">
+                    <h1>Technical Skills</h1>
+                    <div className="technical-icons">
+                        {
+                            skills.map((skill,index) =>(
+                                <div key={index} className="skill-card">
+                                    <img src={skill.image} alt='skill' />
+                                    <p>
+                                        {skill.name}
+                                    </p>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+            </div>
         </section>
         <section className="four">
             <h1>Fourth Page</h1>

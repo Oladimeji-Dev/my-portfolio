@@ -18,8 +18,10 @@ section{
     position: relative;
 }
 
+/* Desiging the second section of the page */
+
 .two{
-    background-color: #6f85e615;
+    background-color: #6f85e63b;
     color: #4831d4;
     min-height: 100vh;
 
@@ -96,24 +98,132 @@ section{
     }
     .about-me-dec{
         width: 90%;
+        margin-bottom: 10px;
     }
+    
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
 .three{
-background-color: blueviolet;
+    background-color: #6f85e625;
+    color: #4831d4;
+    min-height: 100vh;
+
 }
+
+.knowledge{
+    /* background-color:#f9f9f9; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3%;
+}
+
+
+.knowledge-projects{
+    width: 50%;
+    background-color: #f9f9f9;
+    border-right: 2px solid #4731d46e;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.knowledge-projects h1{
+    margin: 10px 0;
+    font-size: 3rem;
+
+}
+.knowledge-projects p{
+    margin: 10px 0;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.knowledge-skills{
+    width: 50%;
+    background-color: #f9f9f9;
+    border-left: 2px solid #4731d46e;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.btn{
+    border: 1px solid #4831d4;
+    color: white;
+    background-color: #4831d4;
+    font-family: 'Source Code Pro', monospace;
+    width: fit-content;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-works{
+    margin: 20px 0;
+}
+.btn-works:hover{
+    background-color: #f9f9f9;
+    color: #4831d4;
+    
+}
+.knowledge-skills h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.technical-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-card img{
+    width: 100px;
+    height: 100px;
+}
+.skill-card p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+@media (max-width:950px) {
+    .knowledge{
+        /* background-color:#f9f9f9; */
+       
+       flex-direction: column;
+       min-height: 300px;
+       gap: 20px;
+       justify-content: center;
+       padding-bottom: 30px;
+    }
+    .knowledge-projects{
+        width: 90%;
+        border-right: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .knowledge-skills{
+        width: 90%;
+        border-left: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+
+
 .four{
 background-color: grey;
 }
