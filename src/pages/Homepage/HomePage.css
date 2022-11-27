@@ -21,6 +21,82 @@ section{
 .two{
     background-color: #6f85e615;
     color: #4831d4;
+    min-height: 100vh;
+
+}
+.about-me{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1440px;
+    align-items: center;
+}
+.about-me-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.about-me-dec{
+    width: 50%;
+}
+.about-me-image-border{
+    height: 300px;
+    width: 300px;
+    border: 3px solid #4831d4;
+    border-radius: 30px;
+    position: relative;
+
+}
+.about-me-image img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    top: 30px;
+    left: 20px;
+}
+.about-me-dec-header{
+    display: flex;
+    align-items: center;
+}
+.about-me-dec-header h2{
+    font-size: 3rem;
+    margin-right: 20px;
+}
+.border-line{
+    width : 50%;
+    background-color: #4831d4;
+    height: 1px;
+}
+.about-me-dec-main{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1rem;
+}
+
+@media (max-width:1024px) {
+    
+    .about-me-dec-header h2{
+        font-size: 2.2rem;
+        
+    }
+    .about-me-image{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media (max-width:768px) {
+    .about-me{
+        flex-direction: column-reverse;
+    }
+    .about-me-image{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .about-me-dec{
+        width: 90%;
+    }
 }
 
 
