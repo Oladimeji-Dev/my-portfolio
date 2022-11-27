@@ -12,7 +12,7 @@
 }
 
 section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     scroll-snap-align: start;
     scroll-behavior: smooth;
     position: relative;
@@ -35,4 +35,10 @@ background-color: grey;
 .five{
 background-color: goldenrod;
 }
-  
+
+/* @media (max-width:650px) {
+    .container{
+        scroll-snap-type: none;
+    }
+    
+} */
