@@ -20,6 +20,7 @@ h1{
 }
 .intro{
     width: 60%;
+    padding-bottom: 30px;
     
 }
 .profile-image{
@@ -93,12 +94,12 @@ h1{
     }
 }
 @media (max-width:650px) {
-    /* .one{
-        max-height: fit-content;
-    } */
     .one-intro{
         flex-direction: column;
         margin-top: 10px;
+    }
+    .intro{
+        padding-top: 30px;
     }
     .intro{
         width: 100%;
@@ -115,5 +116,10 @@ h1{
 }
 
 @media (max-width:425px) {
-    
+    .intro-1{
+        font-size: 2.5rem;
+    }
+    .intro-4{
+        margin: 20px 0;
+    }
 }
