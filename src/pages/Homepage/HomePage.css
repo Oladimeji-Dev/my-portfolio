@@ -103,12 +103,20 @@ section{
     
 }
 
+@media (max-width:768px) {
+    .about-me-dec-header h2{
+        font-size: 2rem;
+        
+    }
+}
+
 
 
 .three{
     background-color: #6f85e625;
     color: #4831d4;
     min-height: 100vh;
+   
 
 }
 
@@ -118,6 +126,7 @@ section{
     margin: 0 auto;
     display: flex;
     margin-top: 3%;
+    max-width: 1440px;
 }
 
 
@@ -221,7 +230,6 @@ section{
     }
     
 }
-
 
 
 .four{
