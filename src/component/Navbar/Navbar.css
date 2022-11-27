@@ -17,3 +17,9 @@
 svg:hover{
     cursor: pointer;
 }
+
+@media (max-width:425px) {
+    .logo,svg{
+        height: 40px;
+    }
+}

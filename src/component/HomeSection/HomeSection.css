@@ -34,7 +34,7 @@ h1{
 }
 .intro-1{
     color: #ccd6f6;
-    font-size: 4rem;
+    font-size: 3.9rem;
 }
 .intro-1-span{
     color: #fff;
@@ -52,7 +52,7 @@ h1{
     color: #c8ccda;
 }
 .intro-4{
-    width: 70%;
+    /* width: 70%; */
     text-align: justify;
     /* color: #8892b0; */
     color: #ccf381;
@@ -62,10 +62,7 @@ h1{
 
 @media (max-width:1024px) {
     .intro-1{
-        font-size: 2.8rem;
-    }
-    .intro-4{
-        width: 100%;
+        font-size: 3rem;
     }
     .profile-image img{
         width: 230px;
@@ -94,10 +91,6 @@ h1{
         color: #ccd6f6;
         font-size: 1.3rem;
     }
-    .intro-4{
-        width:90%;
-    }
-    
 }
 @media (max-width:650px) {
     .one{
@@ -110,16 +103,20 @@ h1{
     }
     .intro{
         width: 100%;
-        margin-bottom: 10px;
     }
     .profile-image img{
         width: 190px;
         height: 190px;
     }
     .profile-image{
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
+        width: 115%;
+        /* margin-left: auto;
+        margin-right: auto; */
+       padding: 20px 0;
+        background-color: #ccf381;
     }
+}
+
+@media (max-width:425px) {
+    
 }
