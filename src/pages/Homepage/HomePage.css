@@ -217,9 +217,7 @@ section{
         margin-top: 0;
         padding-top: 3%;
     }
-    .four{
-        min-height: fit-content;
-    }
+    
 }
 
 @media (max-width:950px) {
@@ -371,6 +369,9 @@ textarea:focus{
     .send-message{
         margin-top: 0;
         padding-top: 3%;
+    }
+    .four{
+        min-height: fit-content;
     }
 }
 @media (max-width:675px) {
