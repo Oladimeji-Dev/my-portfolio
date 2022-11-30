@@ -12,7 +12,7 @@ export const HomePage = () => {
   return (
     <div className='container'>
         <HomeSection />
-        {/* <section className="two">
+        <section className="two">
             <Navbar fill='#5034d4'logo={logop} />
             <div className="about-me">
                 <div className="about-me-image">
@@ -67,7 +67,7 @@ export const HomePage = () => {
                     </div>
                 </div>
             </div>
-        </section> */}
+        </section>
         <section className="four">
             <Navbar fill='#ccf381'logo={logol} />
             <div className="send-message">
@@ -80,13 +80,20 @@ export const HomePage = () => {
                 </header>
                 <form className="send-message-form">
                     <div className="first-form">
-                        <input type="text" placeholder='Enter your name' />
-                        <input type="text" placeholder='Enter your email address' />
+                        <div className="form-ne">
+                            <label htmlFor='name'>Your Name</label>
+                            <input type="text" id='name' placeholder='Enter your name' />
+                        </div>
+                        <div className="form-ne">
+                            <label htmlFor='email'>Email Address</label>
+                            <input type="text" id='email' placeholder='Enter your email address' />
+                        </div> 
                     </div>
                     <div className="second-form">
-                        <textarea placeholder='Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?'></textarea>
+                        <label htmlFor='message'>Your Message</label>
+                        <textarea id='message' rows="7" minLength="30" placeholder='Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?'></textarea>
                     </div>
-                    <input className='btn' type="submit" value="SHOOT" />
+                    <input className='btn btn-message' type="submit" value="SHOOT ----->" />
                 </form>
             </div>
         </section>
