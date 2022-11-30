@@ -389,10 +389,11 @@ textarea:focus{
     width: 90%;
     margin: 20px auto;
     /* set the internal height here */
-    height: 80vh; 
+    min-height: 80vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 1440px;
 }
 .footer-section-header{
     width: 50%;
@@ -424,4 +425,26 @@ textarea:focus{
 .btn-footer:hover{
     color: #3d155f;
     background-color: #ccf381;
+}
+
+.footer-section-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3rem auto;
+    border-top:  1px solid #ccf381;
+    align-items: center;
+    padding: 20px 0;
+    color: #ccf381;
+}
+.footer-socials{
+    display: flex;
+    gap:20px;
+}
+.footer-socials a{
+    color: #ccf381;
+    text-decoration: none;
+}
+.footer-socials a:hover{
+    color: #ccd6f6;
 }

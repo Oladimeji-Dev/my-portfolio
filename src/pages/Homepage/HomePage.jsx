@@ -117,10 +117,10 @@ export const HomePage = () => {
                             &copy; Abdulwasiu Oladimeji Saliman
                         </div>
                         <div className="footer-socials">
-                            <p>TW</p>
-                            <p>GH</p>
-                            <p>LN</p>
-                            <p>YT</p>
+                            <Link to="/">TW</Link>
+                            <Link to="/">GH</Link>
+                            <Link to="/">LN</Link>
+                            <Link to="/">YT</Link>
                         </div>
                     </div>
                 </div>
