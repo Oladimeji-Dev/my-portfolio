@@ -12,7 +12,6 @@
 }
 
 
-
 section{
     /* min-height: 100vh; */
     scroll-snap-align: start;
@@ -31,6 +30,7 @@ section{
     background-color: #6f85e63b;
     color: #4831d4;
     min-height: 100vh;
+    padding-bottom: 30px;
 
 }
 .about-me{
@@ -124,7 +124,6 @@ section{
     color: #4831d4;
     min-height: 100vh;
    
-
 }
 
 .knowledge{
@@ -212,6 +211,12 @@ section{
 .skill-card p{
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
+}
+@media (max-width:700px) {
+    .knowledge{
+        margin-top: 0;
+        padding-top: 3%;
+    }
 }
 
 @media (max-width:950px) {
@@ -359,6 +364,12 @@ textarea:focus{
         
     }
 }
+@media (max-width:700px) {
+    .send-message{
+        margin-top: 0;
+        padding-top: 3%;
+    }
+}
 @media (max-width:675px) {
     /* .send-message-header h1{
         font-size: 1.8rem;
@@ -490,6 +501,15 @@ textarea:focus{
 
         width: 100%;
        
+    }
+}
+@media (max-width:700px) {
+    .five{
+        min-height: fit-content;
+    }
+    .footer-section{
+        margin-top: 0;
+        padding-top: 3%;
     }
 }
 @media (max-width:426px){
