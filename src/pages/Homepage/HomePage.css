@@ -233,8 +233,38 @@ section{
 
 
 .four{
-background-color: grey;
+    background-color: #4831d4;
+    color: #ccf381;
+    min-height: 100vh;
 }
+.send-message{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.send-message{text-align: center;
+}
+.send-message-header h1{
+    font-size: 3rem;
+}
+.send-message-header p{
+    font-size: 1.5rem;
+    color:#ccd6f6
+}
+.send-message-form{
+    width: 70%;
+    margin: 0 auto;
+}
+.first-form{
+    display: flex;
+}
+.first-form input {
+    
+}
+
+
+
 .five{
 background-color: goldenrod;
 }
