@@ -6,7 +6,7 @@ import logop from '../../assets/images/cube_002.png'
 import logol from '../../assets/images/cube_001.png'
 import profile from '../../assets/images/Profile.jpeg'
 import { skills } from '../../skills'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const HomePage = () => {
   return (
@@ -49,7 +49,7 @@ export const HomePage = () => {
                     <p>
                         Open source projects, <br/>web apps and experimentals.
                     </p>
-                    <a href='#1' className='btn btn-works'>SEE MY WORKS ----</a>
+                    <Link to='/' className='btn btn-works'>SEE MY WORKS ----</Link>
                 </div>
                 <div className="knowledge-skills">
                     <h1>Technical Skills</h1>
@@ -72,7 +72,7 @@ export const HomePage = () => {
             <Navbar fill='#ccf381'logo={logol} />
             <div className="send-message">
                 <header className='send-message-header'>
-                    <h1>Send me a message!</h1>
+                    <h1>Send me a message! &#128231;</h1>
                     <p>
                         Got a question or proposal, or just want <br />
                         to say hello? Go ahead.
@@ -102,19 +102,19 @@ export const HomePage = () => {
                 <Navbar fill='#ccf381'logo={logol} />
                 <div className="footer-section">
                     <header className='footer-section-header'>
-                        <h1>Get In Touch</h1>
+                        <h1>Get In Touch &#128519;</h1>
                         <p>
                             Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
                         </p>
                     </header>
                     <div className="footer-section-buttons">
-                        <a href="#1">Say Hello</a>
-                        <a href="#1">My Work</a>
-                        <a href="#1">My Resume</a>
+                        <Link className='btn btn-footer' to="/">Say Hello</Link>
+                        <Link className='btn btn-footer' to="/">My Work</Link>
+                        <Link className='btn btn-footer' to="/">My Resume</Link>
                     </div>
                     <div className="footer-section-footer">
                         <div className="footer-name">
-                            &copy Abdulwasiu Oladimeji Saliman
+                            &copy; Abdulwasiu Oladimeji Saliman
                         </div>
                         <div className="footer-socials">
                             <p>TW</p>
