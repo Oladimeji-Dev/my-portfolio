@@ -98,7 +98,33 @@ export const HomePage = () => {
             </div>
         </section>
         <section className="five">
-            <h1>Five page</h1>
+            <footer>
+                <Navbar fill='#ccf381'logo={logol} />
+                <div className="footer-section">
+                    <header className='footer-section-header'>
+                        <h1>Get In Touch</h1>
+                        <p>
+                            Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+                        </p>
+                    </header>
+                    <div className="footer-section-buttons">
+                        <a href="#1">Say Hello</a>
+                        <a href="#1">My Work</a>
+                        <a href="#1">My Resume</a>
+                    </div>
+                    <div className="footer-section-footer">
+                        <div className="footer-name">
+                            &copy Abdulwasiu Oladimeji Saliman
+                        </div>
+                        <div className="footer-socials">
+                            <p>TW</p>
+                            <p>GH</p>
+                            <p>LN</p>
+                            <p>YT</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </section>
     </div>
   )
