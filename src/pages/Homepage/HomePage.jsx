@@ -9,6 +9,7 @@ import { skills } from '../../skills'
 import { Link } from 'react-router-dom'
 
 export const HomePage = () => {
+    const thisYear = new Date().getFullYear()
   return (
     <div className='container'>
         <HomeSection />
@@ -114,7 +115,7 @@ export const HomePage = () => {
                     </div>
                     <div className="footer-section-footer">
                         <div className="footer-name">
-                            &copy; Abdulwasiu Oladimeji Saliman
+                            &copy; Abdulwasiu Oladimeji Saliman {thisYear}
                         </div>
                         <div className="footer-socials">
                             <Link to="/">TW</Link>
