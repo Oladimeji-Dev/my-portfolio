@@ -10,6 +10,7 @@
 .container::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+
 .btn{
     border: 1px solid #4831d4;
     background-color: #f9f9f9;

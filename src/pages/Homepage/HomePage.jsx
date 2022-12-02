@@ -12,7 +12,7 @@ export const HomePage = () => {
         <AboutMe />
         <TechnicalSkills />
         <SendMessage />
-        <Footer />
+        <Footer shownav={true} />
     </div>
   )
 }
