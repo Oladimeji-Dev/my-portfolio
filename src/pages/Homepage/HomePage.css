@@ -10,6 +10,16 @@
 .container::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+.btn{
+    border: 1px solid #4831d4;
+    background-color: #f9f9f9;
+    color: #4831d4;  
+    font-family: 'Source Code Pro', monospace;
+    width: fit-content;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 section{
@@ -26,224 +36,7 @@ section{
 }
 /* Desiging the second section of the page */
 
-.two{
-    background-color: #6f85e63b;
-    color: #4831d4;
-    min-height: 100vh;
-    padding-bottom: 30px;
 
-}
-.about-me{
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1440px;
-    align-items: center;
-}
-.about-me-image{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-.about-me-dec{
-    width: 50%;
-}
-.about-me-image-border{
-    height: 300px;
-    width: 300px;
-    border: 3px solid #4831d4;
-    border-radius: 30px;
-    position: relative;
-
-}
-.about-me-image img{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-    top: 30px;
-    left: 20px;
-}
-.about-me-dec-header{
-    display: flex;
-    align-items: center;
-}
-.about-me-dec-header h2{
-    font-size: 3rem;
-    margin-right: 20px;
-}
-.border-line{
-    width : 50%;
-    background-color: #4831d4;
-    height: 1px;
-}
-.about-me-dec-main{
-    font-family: 'Source Code Pro', monospace;
-    font-size: 1.1rem;
-}
-
-@media (max-width:1024px) {
-    
-    .about-me-dec-header h2{
-        font-size: 2.2rem;
-        
-    }
-    .about-me-image{
-        display: flex;
-        justify-content: flex-start;
-    }
-}
-@media (max-width:768px) {
-    .about-me{
-        flex-direction: column-reverse;
-    }
-    .about-me-image{
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40px;
-    }
-    .about-me-dec{
-        width: 90%;
-        margin-bottom: 10px;
-    }
-    
-}
-
-@media (max-width:768px) {
-    .about-me-dec-header h2{
-        font-size: 2rem;
-        
-    }
-}
-
-
-
-.three{
-    background-color: #6f85e625;
-    color: #4831d4;
-    min-height: 100vh;
-   
-}
-
-.knowledge{
-    /* background-color:#f9f9f9; */
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    margin-top: 3%;
-    max-width: 1440px;
-}
-
-
-.knowledge-projects{
-    width: 50%;
-    background-color: #f9f9f9;
-    border-right: 2px solid #4731d46e;
-    padding: 20px;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.knowledge-projects h1{
-    margin: 10px 0;
-    font-size: 3rem;
-
-}
-.knowledge-projects p{
-    margin: 10px 0;
-    margin-right: 20px;
-    font-size: 1.5rem;
-    font-family: 'Source Code Pro', monospace;
-    
-}
-.knowledge-skills{
-    width: 50%;
-    background-color: #f9f9f9;
-    border-left: 2px solid #4731d46e;
-    padding: 20px;
-    min-height: 400px;
-}
-
-.btn{
-    border: 1px solid #4831d4;
-    background-color: #f9f9f9;
-    color: #4831d4;  
-    font-family: 'Source Code Pro', monospace;
-    width: fit-content;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-weight: bold;
-}
-.btn:hover{
-    cursor: pointer;
-}
-.btn-works{
-    margin: 20px 0;
-}
-.btn-works:hover{
-
-    color: white;
-    background-color: #4831d4;
-    
-}
-.knowledge-skills h1{
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.technical-icons{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-.skill-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.skill-card img{
-    width: 100px;
-    height: 100px;
-}
-.skill-card p{
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
-}
-@media (max-width:700px) {
-    .knowledge{
-        margin-top: 0;
-        padding-top: 3%;
-    }
-    
-}
-
-@media (max-width:950px) {
-    .knowledge{
-        /* background-color:#f9f9f9; */
-       
-       flex-direction: column;
-       min-height: 300px;
-       gap: 20px;
-       justify-content: center;
-       padding-bottom: 30px;
-    }
-    .knowledge-projects{
-        width: 90%;
-        border-right: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .knowledge-skills{
-        width: 90%;
-        border-left: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-}
 
 
 .four{

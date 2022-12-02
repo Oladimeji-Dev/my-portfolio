@@ -2,47 +2,19 @@ import React from 'react'
 import './HomePage.css'
 import { HomeSection } from '../../component/HomeSection/HomeSection'
 import { Navbar } from '../../component/SecNavbar/Navbar'
-import logop from '../../assets/images/cube_002.png'
+// import logop from '../../assets/images/cube_002.png'
 import logol from '../../assets/images/cube_001.png'
-import { skills } from '../../skills'
-import { Link } from 'react-router-dom'
 import { Footer } from '../../component/Footer/Footer'
 import { AboutMe } from '../../component/AboutMe/AboutMe'
+import { TechnicalSkills } from '../../component/TechnicalSkills/TechnicalSkills'
 
 export const HomePage = () => {
   return (
     <div className='container'>
         <HomeSection />
         <AboutMe />
-        <section className="three">
-            <Navbar fill='#5034d4'logo={logop} />
-            <div className="knowledge">
-                <div className="knowledge-projects">
-                    <h1>
-                        I build & Program stuff
-                    </h1>
-                    <p>
-                        Open source projects, <br/>web apps and experimentals.
-                    </p>
-                    <Link to='/' className='btn btn-works'>SEE MY WORKS ----</Link>
-                </div>
-                <div className="knowledge-skills">
-                    <h1>Technical Skills</h1>
-                    <div className="technical-icons">
-                        {
-                            skills.map((skill,index) =>(
-                                <div key={index} className="skill-card">
-                                    <img src={skill.image} alt='skill' />
-                                    <p>
-                                        {skill.name}
-                                    </p>
-                                </div>
-                            ))
-                        }
-                    </div>
-                </div>
-            </div>
-        </section>
+        <TechnicalSkills />
+        
         <section className="four">
             <Navbar fill='#ccf381'logo={logol} />
             <div className="send-message">
