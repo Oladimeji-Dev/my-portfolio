@@ -16,7 +16,7 @@ export const TechnicalSkills = () => {
                 <p>
                     Open source projects, <br/>web apps and experimentals.
                 </p>
-                <Link to='/' className='btn btn-works'>SEE MY WORKS ----</Link>
+                <Link to='/works' className='btn btn-works'>SEE MY WORKS ----</Link>
             </div>
             <div className="knowledge-skills">
                 <h1>Technical Skills</h1>
