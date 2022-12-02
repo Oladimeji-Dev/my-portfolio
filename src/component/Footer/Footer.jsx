@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom'
 import logol from '../../assets/images/cube_001.png'
 import { Navbar } from '../../component/SecNavbar/Navbar'
 import './Footer.css'
-export const Footer = () => {
+export const Footer = ({shownav}) => {
     const thisYear = new Date().getFullYear()
   return (
-    <section className="five">
+    <section className={shownav ? 'fiveh' : "five"}>
         <footer>
-            <Navbar fill='#ccf381'logo={logol} />
+            {
+                shownav ? <Navbar fill='#ccf381'logo={logol} /> : ''
+            }
             <div className="footer-section">
                 <header className='footer-section-header'>
                     <h1>Get In Touch &#128519;</h1>
