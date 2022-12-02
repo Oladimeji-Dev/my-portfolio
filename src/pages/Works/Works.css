@@ -1,15 +1,14 @@
-.works-container{
-    background-color: #6f85e62b;
-}
+
 .works{
     color: #474747;
     width: 90%;
     margin: 0 auto;
     min-height: 400px;
+    max-width: 1440px;
 }
 .works-header{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 .works-header h1{
     font-size: 2.6rem;
@@ -60,4 +59,21 @@
 }
 .project-card-links img{
     width:35px;
+}
+
+@media (max-width:907px) {
+    .project-card{
+        width: 300px;
+    }
+    .project-card-name{
+        font-size: 1.1rem;;
+    }
+
+    .project-card-image img{
+        width: 200px;
+    }
+ 
+    .project-card-links img{
+        width:30px;
+    }
 }
