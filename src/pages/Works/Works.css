@@ -1,0 +1,9 @@
+.works-container{
+    background-color: #ccd6f691;
+}
+.works{
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 400px;
+}
