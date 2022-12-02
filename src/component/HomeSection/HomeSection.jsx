@@ -6,7 +6,7 @@ import profile from '../../assets/images/Profile.jpeg'
 export const HomeSection = () => {
   return (
         <section className="one">
-            <Navbar logo = {logo} />
+            <Navbar logo = {logo} fill = "#ccf381"/>
             <div className='one-intro'>
                 <div className='intro'>
                     <h1 className='intro-1'>
