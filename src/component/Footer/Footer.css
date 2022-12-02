@@ -1,8 +1,12 @@
 
-.five{
+.fiveh{
     background-color: #3d155f;
     color: #ccd6f6;
     min-height: 100vh;
+}
+.five{
+    background-color: #3d155f;
+    color: #ccd6f6;
 }
 
 .footer-section{
