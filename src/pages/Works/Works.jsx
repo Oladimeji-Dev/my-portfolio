@@ -38,7 +38,7 @@ export const Works = () => {
                         </div>
                     </div>
                 </div>
-                <div className="project-card">
+                {/* <div className="project-card">
                     <div className="project-card-image">
                         <img src={logop} alt="portimg" />
                     </div>
@@ -127,7 +127,7 @@ export const Works = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         <Footer shownav = {false} />
