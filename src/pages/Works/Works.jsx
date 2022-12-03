@@ -38,24 +38,6 @@ export const Works = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="project-card">
-                    <div className="project-card-image">
-                        <img src={logop} alt="portimg" />
-                    </div>
-                    <div className="project-card-details">
-                        <p className='project-card-name'>
-                            Personal Website
-                        </p>
-                        <div className="project-card-links">
-                            <a href="https://github.com/Oladimeji-Dev/" target="_blank" rel="noopener noreferrer" >
-                                <img src={gitIcon}alt="gitimage" />
-                            </a>
-                            <a href="https://oladimeji-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" >
-                                <img src={externalIcon}alt="exterimage" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
                 <div className="project-card">
                     <div className="project-card-image">
                         <img src={logop} alt="portimg" />
@@ -127,7 +109,25 @@ export const Works = () => {
                             </a>
                         </div>
                     </div>
-                </div> */}
+                </div>
+                <div className="project-card">
+                    <div className="project-card-image">
+                        <img src={logop} alt="portimg" />
+                    </div>
+                    <div className="project-card-details">
+                        <p className='project-card-name'>
+                            Personal Website
+                        </p>
+                        <div className="project-card-links">
+                            <a href="https://github.com/Oladimeji-Dev/" target="_blank" rel="noopener noreferrer" >
+                                <img src={gitIcon}alt="gitimage" />
+                            </a>
+                            <a href="https://oladimeji-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" >
+                                <img src={externalIcon}alt="exterimage" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <Footer shownav = {false} />
