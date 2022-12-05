@@ -10,7 +10,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
+.hambuger-nav{
+    background-color: #f5f5f5;
+    color: #5034d4;
+    min-height: 500px;
+    width: 400px;
+    position: fixed;
+    right: 5%;
+    z-index: 10;
+    top: 30px;
+}
+
 .logo,svg{
     height: 60px;
 }
