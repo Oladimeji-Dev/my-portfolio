@@ -3,7 +3,7 @@ import './Navbar.css'
 import { Link } from 'react-router-dom'
 import hamlogo from '../../assets/images/002_txt.png'
 import close from '../../assets/images/x.svg'
-// import menu from '../../assets/images/menu.png'
+
 export const Navbar = ({logo,fill}) => {
   return (
     <div className='navbar'>
