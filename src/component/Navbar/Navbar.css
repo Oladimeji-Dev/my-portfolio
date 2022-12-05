@@ -63,9 +63,13 @@
 }
 .hambuger-nav-container a{
     text-decoration: none;
+    color: #5034d4;
 }
 .hambuger-nav-container a:hover{
     color: #cbc9e2;
+}
+.hambuger-nav-container a:visited{
+    color: #5034d4;
 }
 .hambuger-nav-social{
     padding-left: 0;

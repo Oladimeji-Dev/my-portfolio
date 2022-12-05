@@ -25,33 +25,33 @@ export const Navbar = ({logo,fill}) => {
           <div className="hambuger-nav-container">
             <ul className='hambuger-nav-links'>
               <li>
-                <Link to="/work">My Work</Link>  
+                <Link to="/works">My Work</Link>  
               </li>
               <li>
-                <a href="#2">My Resume</a>
+                <a href="https://oladimeji-portfolio.netlify.app/">My Resume</a>
               </li>
             </ul>
             <ul className='hambuger-nav-links'>
               <p>SAY HELLO</p>
               <li>
-                  <a href="#2">hello@Oladimeji.com</a>
+                  <a href="mailto:salimanoladimeji33@gmail.com">hello@Oladimeji.com</a>
               </li>
               <li>
-                  <a href="#2">t.me/mroladimeji</a>
+                  <a href="https://twitter.com/__oladimeji__">t.me/mroladimeji</a>
               </li>
             </ul>
             <ul className='hambuger-nav-social'>
               <li>
-                  <a href="#2">TW</a>
+                  <a href="https://twitter.com/__oladimeji__">TW</a>
               </li>
               <li>
-                  <a href="#2">LN</a>
+                  <a href="https://www.linkedin.com/in/abdulwasiu-saliman/">LN</a>
               </li>
               <li>
-                  <a href="#2">YT</a>
+                  <a href="http://github.com/oladimeji-dev">YT</a>
               </li>
               <li>
-                  <a href="#2">GH</a>
+                  <a href="http://github.com/oladimeji-dev">GH</a>
               </li>
             </ul>
           </div>
