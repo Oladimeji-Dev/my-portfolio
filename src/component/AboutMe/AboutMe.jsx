@@ -3,10 +3,10 @@ import './AboutMe.css'
 import profile from '../../assets/images/Profile.jpeg'
 import logop from '../../assets/images/cube_002.png'
 import { Navbar } from '../../component/SecNavbar/Navbar'
-export const AboutMe = () => {
+export const AboutMe = ({toggle,handleToggle}) => {
   return (
     <section className="two">
-        <Navbar fill='#5034d4'logo={logop} />
+        <Navbar fill='#5034d4'logo={logop} toggle={toggle} handleToggle ={handleToggle}/>
         <div className="about-me">
             <div className="about-me-image">
                 <span className='about-me-image-border'>
