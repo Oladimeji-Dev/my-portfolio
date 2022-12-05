@@ -3,10 +3,10 @@ import { Navbar } from '../Navbar/Navbar'
 import './HomeSection.css'
 import logo from '../../assets/images/001_txt.png'
 import profile from '../../assets/images/Profile.jpeg'
-export const HomeSection = () => {
+export const HomeSection = ({toggle , handleToggle}) => {
   return (
         <section className="one">
-            <Navbar logo = {logo} fill = "#ccf381"/>
+            <Navbar logo = {logo} fill = "#ccf381" toggle={toggle} handleToggle ={handleToggle}/>
             <div className='one-intro'>
                 <div className='intro'>
                     <h1 className='intro-1'>
