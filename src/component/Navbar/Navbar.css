@@ -19,7 +19,7 @@
     background-color: #f5f5f5;
     color: #5034d4;
     min-height: fit-content;
-    width: 400px;
+    width: 350px;
     position: fixed;
     right: 5%;
     z-index: 10;
@@ -40,8 +40,10 @@
     align-items: center;
     justify-content: flex-end;
     padding: 20px 0;
+    width: 90%;
+    margin: 20px auto;
 }
-.hambuger-nav-container header img{
+.hambuger-nav header img{
     height: 30px;
 }
 .hambuger-nav-links{
@@ -80,6 +82,36 @@ ul {
 }
 svg:hover{
     cursor: pointer;
+}
+@media (max-width:767px) {
+    .hambuger-nav{
+        z-index: 10;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        right: 0;
+    }
+    .ham-nav-logo{
+        display: block;
+    }
+    .hambuger-nav header{
+        justify-content: space-between;
+    }
+    .hambuger-nav-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80vh;
+    }
+    .hambuger-nav-links{
+        font-size: 1.6rem;
+    }
+    .hambuger-nav-container p{
+        font-size: 2rem;
+    }
+    .hambuger-nav-social{
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width:425px) {
