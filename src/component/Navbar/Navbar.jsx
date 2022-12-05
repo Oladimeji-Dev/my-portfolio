@@ -23,7 +23,7 @@ export const Navbar = ({logo,fill,toggle,handleToggle}) => {
                 <Link to="/works">My Work</Link>  
               </li>
               <li>
-                <a href="https://oladimeji-portfolio.netlify.app/">My Resume</a>
+                <Link to="/doc/Resume Abdulwasiu Oladimeji Saliman.pdf" target="_blank">My Resume</Link>
               </li>
             </ul>
             <ul className='hambuger-nav-links'>
