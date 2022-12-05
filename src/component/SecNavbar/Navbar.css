@@ -45,7 +45,7 @@
     margin: 20px auto;
 }
 .hambuger-nav header img{
-    height: 30px;
+    height: 60px;
 }
 .hambuger-nav-links{
     padding-left: 0;
@@ -120,7 +120,7 @@ svg:hover{
 }
 
 @media (max-width:425px) {
-    .logo,svg{
+    .logo,svg,.hambuger-nav img{
         height: 40px;
     }
 }
