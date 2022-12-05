@@ -4,12 +4,17 @@ import { Navbar } from '../../component/Navbar/Navbar'
 import logop from '../../assets/images/002_txt.png'
 import gitIcon from '../../assets/icons/github.svg'
 import externalIcon from '../../assets/icons/external.svg'
+import { useState } from 'react'
 // import myPortImg from '../../assets/images/my-port-web.png'
 import "./Works.css"
 export const Works = () => {
+    const [toggle, setToggle] = useState(false);
+  const handleToggle = () =>{
+    setToggle((prevtoggle) => !prevtoggle)
+  }
   return (
     <div className='works-container'>
-        <Navbar logo={logop} fill = '#4831d4' />
+        <Navbar logo={logop} fill = '#4831d4' toggle={toggle} handleToggle={handleToggle} />
         <div className="works">
             <header className='works-header'>
                 <h1>
