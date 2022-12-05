@@ -1,16 +1,11 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
 import hamlogo from '../../assets/images/002_txt.png'
 import close from '../../assets/images/x.svg'
 
-export const Navbar = ({logo,fill}) => {
-  const [toggle, setToggle] = useState(false);
-  const handleToggle = () =>{
-    setToggle((prevtoggle) => !prevtoggle)
-  }
-  console.log(toggle)
+export const Navbar = ({logo,fill,toggle,handleToggle}) => {
+  
   return (
     <div className='navbar'>
         <img src={logo} alt="logo" className='logo'/>
