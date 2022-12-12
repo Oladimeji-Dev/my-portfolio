@@ -1,0 +1,36 @@
+.not-found{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #4831d4;
+    color: #ccd6f6;
+}
+.not-found h1{
+    margin: 0;
+    font-size: 5rem
+}
+.not-found p{
+    margin: 0;
+    font-size: 2rem
+}
+.not-found button{
+    background-color: #ccd6f6;
+    color: #4831d4;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: 1px solid #4831d4;
+    font-weight: bold;
+}
+.not-found button:hover{
+    border: 1px solid #ccd6f6;
+    color: #ccd6f6;
+    background-color: #4831d4;
+    cursor: pointer;
+}
