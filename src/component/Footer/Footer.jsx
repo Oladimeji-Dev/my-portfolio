@@ -5,6 +5,14 @@ import { Navbar } from '../../component/SecNavbar/Navbar'
 import './Footer.css'
 export const Footer = ({shownav,toggle,handleToggle}) => {
     const thisYear = new Date().getFullYear()
+    //   const scrollTo = useScrollTo();
+//   function onScrollTop(){
+//     window.scrollTo({
+//       top: 0,
+//       left: 0,
+//       behavior: 'smooth', 
+//     });
+//   }
   return (
     <section className={shownav ? 'fiveh' : "five"}>
         <footer>
@@ -19,7 +27,7 @@ export const Footer = ({shownav,toggle,handleToggle}) => {
                     </p>
                 </header>
                 <div className="footer-section-buttons">
-                    <Link className='btn btn-footer' to="/">Say Hello</Link>
+                    <Link className='btn btn-footer' to="/" >Say Hello</Link>
                     <Link className='btn btn-footer' to="/">My Work</Link>
                     <Link className='btn btn-footer' to="/">My Resume</Link>
                 </div>
