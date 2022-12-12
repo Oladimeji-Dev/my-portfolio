@@ -12,9 +12,6 @@
     justify-content: space-between;
     position: relative;
 }
-.menu-hide {
-    display: none;
-}
 
 .hambuger-nav{
     background-color: #f5f5f5;
