@@ -13,7 +13,7 @@
     position: relative;
 }
 .menu-hide {
-    display: none;
+    opacity: 0;
 }
 
 .hambuger-nav{
