@@ -7,7 +7,6 @@ export const AboutMe = ({toggle,handleToggle}) => {
   return (
     <section className="two">
         <Navbar fill='#5034d4'logo={logop} toggle={toggle} handleToggle ={handleToggle}/>
-        <div className="column-container">
             <div className="about-me">
                 <div className="about-me-image">
                     <span className='about-me-image-border'>
@@ -32,7 +31,6 @@ export const AboutMe = ({toggle,handleToggle}) => {
                     </main>
                 </div>
             </div>
-        </div>
         </section>
   )
 }

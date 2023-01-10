@@ -8,7 +8,6 @@ export const TechnicalSkills = ({toggle,handleToggle}) => {
   return (
     <section className="three">
         <Navbar fill='#5034d4'logo={logop} toggle={toggle} handleToggle ={handleToggle} />
-        <div className="column-container">
             <div className="knowledge">
                 <div className="knowledge-projects">
                     <h1>
@@ -34,7 +33,7 @@ export const TechnicalSkills = ({toggle,handleToggle}) => {
                         }
                     </div>
                 </div>
-            </div>
+   
         </div>
     </section>
   )
