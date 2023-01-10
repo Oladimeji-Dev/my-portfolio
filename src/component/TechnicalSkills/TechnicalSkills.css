@@ -2,10 +2,7 @@
     background-color: #6f85e625;
     color: #4831d4;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
    
 }
 
