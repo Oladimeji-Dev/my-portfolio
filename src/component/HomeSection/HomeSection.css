@@ -1,10 +1,12 @@
 .one{
     background-color: #5034d4;
     min-height: 100vh;
+    
 }
 h1{
     margin: 10px 0;
 }
+
 .one-intro{
     display: flex;
     align-items: flex-start;

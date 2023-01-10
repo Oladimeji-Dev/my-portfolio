@@ -4,7 +4,7 @@ import logop from '../../assets/images/cube_002.png'
 import { skills } from '../../skills'
 import { Link } from 'react-router-dom'
 import { Navbar } from '../../component/SecNavbar/Navbar'
-export const TechnicalSkills = ({toggle, handleToggle}) => {
+export const TechnicalSkills = ({toggle,handleToggle}) => {
   return (
     <section className="three">
         <Navbar fill='#5034d4'logo={logop} toggle={toggle} handleToggle ={handleToggle} />

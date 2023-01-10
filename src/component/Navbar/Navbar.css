@@ -13,7 +13,11 @@
     position: relative;
 }
 .menu-hide {
-    opacity: 0;
+    display: none;
+    /* opacity: 0; */
+}
+.menu{
+    display: block;
 }
 
 .hambuger-nav{

@@ -14,9 +14,9 @@ export const HomePage = () => {
   return (
     <div className='container'>
         <HomeSection toggle = {toggle} handleToggle = {handleToggle} />
-        <AboutMe toggle = {toggle} handleToggle = {handleToggle} />
-        <TechnicalSkills toggle = {toggle} handleToggle = {handleToggle} />
-        <SendMessage toggle = {toggle} handleToggle = {handleToggle} />
+        <AboutMe toggle = {toggle} handleToggle = {handleToggle} shownav={true} />
+        <TechnicalSkills toggle = {toggle} handleToggle = {handleToggle} shownav={true}  />
+        <SendMessage toggle = {toggle} handleToggle = {handleToggle} shownav={true}  />
         <Footer toggle = {toggle} handleToggle = {handleToggle} shownav={true} />
     </div>
   )

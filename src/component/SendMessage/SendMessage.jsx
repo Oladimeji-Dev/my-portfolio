@@ -1,11 +1,11 @@
 import React from 'react'
 import './SendMessage.css'
-import { Navbar } from '../../component/SecNavbar/Navbar'
-import logol from '../../assets/images/cube_001.png'
-export const SendMessage = ({toggle,handleToggle}) => {
+// import { Navbar } from '../../component/SecNavbar/Navbar'
+// import logol from '../../assets/images/cube_001.png'
+export const SendMessage = () => {
   return (
     <section className="four">
-            <Navbar fill='#ccf381'logo={logol} toggle={toggle} handleToggle ={handleToggle} />
+            {/* <Navbar fill='#ccf381'logo={logol} toggle={toggle} handleToggle ={handleToggle} /> */}
             <div className="send-message">
                 <header className='send-message-header'>
                     <h1>Send me a message! &#128231;</h1>
