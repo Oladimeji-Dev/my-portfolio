@@ -11,7 +11,8 @@
     width: 90%;
     margin: 0 auto;
     display: flex;
-    margin-top: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
     max-width: 1440px;
 }
 

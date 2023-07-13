@@ -26,7 +26,8 @@ h1{
 .profile-image{
     width: 35%;
     display: flex;
-    justify-content:end;
+    /* justify-content:end; */
+    justify-content: flex-end;
 }
 .profile-image img{
     width: 400px;
